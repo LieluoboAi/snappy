@@ -1,4 +1,4 @@
-workspace(name = "com_github_cschuet_snappy")
+workspace(name = "com_github_lieluoboai_snappy")
 
 load("//:bazel/repositories.bzl", "repositories")
 

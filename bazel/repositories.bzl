@@ -43,7 +43,7 @@ def repositories():
         http_archive,
         name = "com_github_google_snappy",
         sha256 = "284891411a87e313753ce992b28739e4eb47ddb49ec00e5c5d97498cd4f8a305",
-	    build_file = "@com_github_cschuet_snappy//bazel/third_party/snappy:snappy.BUILD",
+	    build_file = "@com_github_lieluoboai_snappy//bazel/third_party/snappy:snappy.BUILD",
         strip_prefix = "snappy-ea660b57d65d68d521287c903459b6dd3b2804d0",
         urls = [
             "https://github.com/google/snappy/archive/ea660b57d65d68d521287c903459b6dd3b2804d0.tar.gz",
